@@ -17,7 +17,10 @@ const App = () => {
   return (
     <Provider store={store}>
       <SafeAreaView>
-        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+        <StatusBar
+          backgroundColor="#FFF"
+          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+        />
         <View style={styles.center}>
           <Counter />
           <ButtonRedux />
