@@ -1,4 +1,4 @@
-package com.reduxcounter.newarchitecture.components;
+package me.sergiorj.counter.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

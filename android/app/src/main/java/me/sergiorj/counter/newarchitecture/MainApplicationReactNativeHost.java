@@ -1,4 +1,4 @@
-package com.reduxcounter.newarchitecture;
+package me.sergiorj.counter.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.reduxcounter.BuildConfig;
-import com.reduxcounter.newarchitecture.components.MainComponentsRegistry;
-import com.reduxcounter.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import me.sergiorj.counter.BuildConfig;
+import me.sergiorj.counter.newarchitecture.components.MainComponentsRegistry;
+import me.sergiorj.counter.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

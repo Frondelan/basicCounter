@@ -1,4 +1,4 @@
-package com.reduxcounter;
+package me.sergiorj.counter;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
